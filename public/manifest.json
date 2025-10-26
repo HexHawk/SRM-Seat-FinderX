@@ -1,0 +1,24 @@
+{
+    "name": "SRM Seat FinderX",
+    "short_name": "SeatFinderX",
+    "description": "Quickly find your SRM University Ramapuram exam hall, block, and seat details for all semester exams.",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/",
+    "orientation": "portrait",
+    "lang": "en"
+  }
