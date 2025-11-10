@@ -11,11 +11,6 @@ import {
   Armchair,
 } from "lucide-react";
 
-const sessionTimes = {
-  FN: "10:00 AM - 01:00 PM",
-  AN: "02:00 PM - 05:00 PM",
-};
-
 interface ResultsProps {
   studentData: {
     registrationNumber: string;
@@ -25,14 +20,11 @@ interface ResultsProps {
     seatNo: string;
     date: string;
     time: string;
-    session: "FN" | "AN" | string;
     error?: string;
   };
 }
 
 const Results = ({ studentData }: ResultsProps) => {
-  const examTime = sessionTimes[studentData.session] || "Time not specified";
-
   return (
     <div className="w-full max-w-2xl space-y-6 animate-slide-in">
       {/* Error or Success Confirmation Card */}
